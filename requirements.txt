@@ -1,0 +1,13 @@
+# Format Accepted:
+# Only is accepted # in the begin of the line to comment.
+# For git expresions you must use # to specify dependency of RPM
+#       Example: git+ssh://github.com/gabrielfalcao/lettuce/tree/0.2.22
+# For rpm dependecy use a #:rpm
+#		Example #rpm:requests == 0.13.2
+# Please only use strict (==) dependencies, as >= are error prone
+
+# BDD
+lettuce = 0.2.23
+
+# Python
+requests==2.5.1
