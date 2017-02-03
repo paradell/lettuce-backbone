@@ -1,6 +1,8 @@
-from lettuce import before, after, world
+from lettuce import before, world
+
+from utils.api_utils import GitHubApiClient
 
 
 @before.all
 def feature_setup():
-    world.resp = None
+    world.api = GitHubApiClient()
