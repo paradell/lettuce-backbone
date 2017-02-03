@@ -7,7 +7,7 @@
 # Please only use strict (==) dependencies, as >= are error prone
 
 # BDD
-lettuce = 0.2.23
+lettuce == 0.2.23
 
 # Python
-requests==2.5.1
+requests == 2.13.0
